@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+  height: 60px;
+  width: 100vw;
+  background-color:  rgba(117, 10, 193, 0.707);
+  
+  display: flex;
+  border-bottom: 2px solid black;
+}
+.item1{
+  height: 60px;
+  width: 40%;
+  color: black;
+  display: flex;
+  font: size 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  align-items: center;
+  padding-left:90px ;
+}
+.item2{
+  height: 60px;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items:center ;
+}
+item28{
+  height: 45px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+.body{
+  height: 400px;
+  width: 100vw;
+  display: flex;
+}
+.body1{
+  height:400px;
+  width: 50%;
+  overflow: hidden;
+}
+.body1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.body2{
+  height:400px;
+  width: 50%;
+  overflow: hidden;
+}
+.body2 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bodytext{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 460px;
+}
+.bodytext{
+  color: rgba(117, 10, 193, 0.707);
+}
+.donatenow{
+  margin-left:150px;
+  color: white;
+  background-color:rgba(117, 10, 193, 0.707);
+  height: 40px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  height: 300px;
+  width: 100vw;
+  background-color: white;
+  border: 5px solid black;
+}
+.footer1{
+  height:80px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  font-family: cursive;
+}
+.footer2{
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer21{
+  height:150px;
+  width:160px;
+  overflow: hidden;
+}
+.footer21 img{
+  object-fit: cover;
+  height: 95%;
+  width: 100%;
+}
+
+.footer22{
+  height:150px;
+  background-color: white;
+  overflow: hidden;
+  width:180px;
+}
+.footer22 img{
+  object-fit: cover;
+  height: 95%;
+  width: 100%;
+}
+
+.footer23{
+  height:150px;
+  background-color: white;
+  overflow: hidden;
+  width:160px;
+}
+.footer22 img{
+  object-fit: cover;
+  height: 95%;
+  width: 100%;
+}
+
+
+
+  
+  
+
+
+  
